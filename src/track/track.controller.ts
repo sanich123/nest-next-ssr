@@ -3,9 +3,9 @@ import { Controller, Get } from '@nestjs/common';
 @Controller('/tracks')
 export class TrackController {
   create() {}
-    @Get()
+  @Get()
   getAll() {
-      return 'its working'
+    return 'its working';
   }
 
   getOne() {}
